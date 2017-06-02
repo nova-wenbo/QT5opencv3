@@ -1,8 +1,8 @@
 /************************************************************************************
  *  author : Dave
- *  Email : nova_wangwenbo@163.com
+ *  Email : nova_wangwenbo@126.com
  *  Address : Xi'an Aeronautical University
- *  Date : 20170525
+ *  Date : 20170527
  * **********************************************************************************/
 #include "mainwindow.h"
 #include <QApplication>

@@ -2,14 +2,15 @@
  *  author : Dave
  *  Email : nova_wangwenbo@126.com
  *  Address : Xi'an Aeronautical University
- *  Date : 20170525
+ *  Date : 20170527
  * **********************************************************************************/
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <opencv2/core/core.hpp>
+#include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
-#include <opencv2/opencv.hpp>
+#include <opencv2/videoio.hpp>
 #include <QFileDialog>
 #include <QLineEdit>
 #include <QString>
@@ -170,3 +171,33 @@ void MainWindow::on_console_two_sliderMoved(int position)
 
     cv::imshow("图像处理", image);
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    cv::VideoCapture capture(0);
+    cv::Mat frame;
+
+    while(1)
+    {
+        capture >> frame;
+        cv::imshow("图像", frame);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,8 +1,8 @@
 /************************************************************************************
  *  author : Dave
- *  Email : nova_wangwenbo@163.com
+ *  Email : nova_wangwenbo@126.com
  *  Address : Xi'an Aeronautical University
- *  Date : 20170525
+ *  Date : 20170527
  * **********************************************************************************/
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
@@ -34,8 +34,12 @@ private slots:
 
     void on_console_two_sliderMoved(int position);
 
+    void on_pushButton_clicked();
+
+
 private:
     Ui::MainWindow *ui;
+
 };
 
 #endif
