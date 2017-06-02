@@ -31,6 +31,7 @@ LIBS += /usr/local/lib/libopencv_highgui.so \
         /usr/local/lib/libopencv_imgproc.so \
         /usr/local/lib/libopencv_features2d.so\
         /usr/local/lib/libopencv_flann.so \
+        /usr/local/lib/libopencv_videoio.so \
         /usr/local/lib/libopencv_photo.so
 LIBS += -L/usr/local/lib -lopencv_core -lopencv_imgcodecs -lopencv_highgui
 
