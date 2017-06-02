@@ -154,7 +154,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QPushButton" name="close">
+   <widget class="QPushButton" name="collection">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -164,7 +164,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>退出软件</string>
+     <string>图像采集</string>
     </property>
    </widget>
    <widget class="QSlider" name="console_one">
@@ -222,14 +222,14 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>100</x>
       <y>200</y>
-      <width>81</width>
-      <height>27</height>
+      <width>71</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>图像</string>
+     <string>退出软件</string>
     </property>
    </widget>
   </widget>

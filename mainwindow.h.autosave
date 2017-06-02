@@ -39,8 +39,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    cv::VideoCapture capture(0);
-    cv::Mat frame;
+    
 };
 
 #endif

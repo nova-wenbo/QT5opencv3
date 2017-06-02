@@ -112,7 +112,7 @@ void MainWindow::on_filpImg_clicked()
 }
 
 /*退出软件*/
-void MainWindow::on_close_clicked()
+void MainWindow::on_pushButton_clicked()
 {
    // close();
     exit(0);
@@ -172,15 +172,15 @@ void MainWindow::on_console_two_sliderMoved(int position)
     cv::imshow("图像处理", image);
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_collection_clicked()
 {
-    cv::VideoCapture capture(0);
-    cv::Mat frame;
+
 
     while(1)
     {
         capture >> frame;
-        cv::imshow("图像", frame);
+        cv::imshow("图像采集", frame);
+        cv::waitKey(30);
     }
 }
 
